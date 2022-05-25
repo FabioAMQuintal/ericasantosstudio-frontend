@@ -1,30 +1,56 @@
 import { Tab, Row, Col, ListGroup } from 'react-bootstrap'
+import './index.css'
 
 const InfoContent = () => {
     return (
-        <div>
-            <h1 className='text-center fs-3 fw-light m-l-10'> Somos especialistas em</h1>
-            <br></br>
+        <div className='main'>
+            <div className='main-content'>
+            <ListGroup className='fs-5 fw-light m-3 rounded'>
+                <ListGroup.Item>
+                    <h1>Somos especialistas em</h1>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                    <h4>✨ Morena Iluminada</h4>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                    <h4>💁‍♀️ Loiro</h4>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                    <h4>💁🏻‍♀️ Cortes de Long Bob / Short Bob / Chanel</h4>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                    <h4>👉 Tratamentos Capilares</h4>
+                </ListGroup.Item>
+            </ListGroup>
+            </div>
+        </div>
+    )
+}
+
+export default InfoContent;
+
+/* 
+<h1 classNameName='fs-3 fw-light p-3'> Somos especialistas em:</h1>
             <Tab.Container defaultActiveKey="#link1">
                 <Row>
                     <Col sm={4}>
-                        <ListGroup className='fs-5 fw-light m-3' variant='flush'>
-                            <ListGroup.Item action href="#morenasiluminadas" className="bg-secondary text-white">
+                        <ListGroup classNameName='fs-5 fw-light m-3 rounded'>
+                            <ListGroup.Item action href="#morenasiluminadas" variant='light'>
                                 Morenas Iluminadas
                             </ListGroup.Item>
-                            <ListGroup.Item action href="#loiros" className="bg-secondary text-white">
+                            <ListGroup.Item action href="#loiros" variant='light'>
                                 Loiros
                             </ListGroup.Item>
-                            <ListGroup.Item action href="#cortes" className="bg-secondary text-white">
+                            <ListGroup.Item action href="#cortes" variant='light'>
                                 Cortes de Long Bob / Short Bob / Chanel
                             </ListGroup.Item>
-                            <ListGroup.Item action href="#tratamentos" className="bg-secondary text-white">
+                            <ListGroup.Item action href="#tratamentos" variant='light'>
                                 Tratamentos capilares
                             </ListGroup.Item>
                         </ListGroup>
                     </Col>
                     <Col sm={8}>
-                        <Tab.Content className='fs-5 fw-light m-3'>
+                        <Tab.Content classNameName='fs-5 fw-light m-3'>
                             <Tab.Pane eventKey="#morenasiluminadas">
                                 links
                             </Tab.Pane>
@@ -48,8 +74,5 @@ const InfoContent = () => {
                 </Row>
             </Tab.Container>
             <br></br>
-        </div>
-    )
-}
 
-export default InfoContent;
+*/

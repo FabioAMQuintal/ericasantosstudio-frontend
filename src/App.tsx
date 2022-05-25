@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, CarouselPersonal, InfoContent } from './components/index'
+import { Header, CarouselPersonal, InfoContent, Agendamento, Footer } from './components/index'
 import './App.css'
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
       <Header />
       <InfoContent />
       <CarouselPersonal />
+      <Agendamento />
+      <Footer />
     </div>
   );
 }

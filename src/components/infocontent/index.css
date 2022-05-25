@@ -1,3 +1,14 @@
-.teste {
-    margin: 20px;
+.main {
+    height: 40rem;
+    background-image: url('../../assets/pexels-nikolaos-dimou-1319460.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.main-content {
+    padding-top: 10%;
+    padding-left: 4%;
+    width: 45%;
+    font-family: 'Roboto Flex', sans-serif;
 }

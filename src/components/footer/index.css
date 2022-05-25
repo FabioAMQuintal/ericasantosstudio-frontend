@@ -1,0 +1,19 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

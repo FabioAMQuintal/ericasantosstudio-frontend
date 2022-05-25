@@ -1,0 +1,11 @@
+#main-caroulsel .imagem img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+    height: 100vh;
+    background-color: gray;
+}
+
+#main-caroulsel h3 {
+    font-family: 'Roboto Flex', sans-serif;
+}
