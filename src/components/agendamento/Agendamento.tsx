@@ -8,13 +8,12 @@ const Agendamento = () => {
             </Button>
             <div className='d-flex justify-content-center'>
                 <p>
-                    Estamos localizados na Zona Sul de SP! 
                     <br />
+                    Estamos localizados na Zona Sul de SP! 
                     <br />
                     <a href='https://goo.gl/maps/5BhB3yrGXXAzUXEU7' target='_blank' rel="noreferrer"><strong>Rua Dolcinópolis, 145 | São Paulo - SP</strong></a>
                     <br />
-
-                </p>
+                </p> 
             </div>
 
         </div>
